@@ -239,7 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {43457849},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
@@ -424,7 +424,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 45437849
 now = os.time()
 math.randomseed(now)
 started = false
